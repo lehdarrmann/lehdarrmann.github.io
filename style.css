@@ -1,29 +1,76 @@
+/* ===== Global ===== */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
   max-width: 900px;
   margin: auto;
-  padding: 20px;
+  padding: 25px;
   line-height: 1.6;
 }
 
+/* ===== Header ===== */
 header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
-h1 {
+header h1 {
+  font-size: 2.5em;
   margin-bottom: 5px;
+  color: #e6edf3;
 }
 
+header p {
+  margin: 6px 0;
+  color: #8b949e;
+}
+
+/* ===== Sections ===== */
 section {
+  background-color: #161b22;
+  padding: 20px;
+  border-radius: 8px;
   margin-bottom: 30px;
 }
 
+section h2 {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  color: #58a6ff;
+}
+
+/* ===== Lists ===== */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* ===== Links ===== */
 a {
-  color: #0066cc;
+  color: #58a6ff;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* ===== Project Titles ===== */
+strong {
+  color: #e6edf3;
+  font-size: 1.05em;
+}
+
+/* ===== Footer (Optional Later) ===== */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #8b949e;
+  margin-top: 40px;
 }
